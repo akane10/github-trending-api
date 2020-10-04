@@ -64,6 +64,7 @@
   },
   "scripts": {
     "start": "netlify dev",
+    "start-server": "node src/api/index.js",
     "test": "jest --coverage",
     "eslint": "eslint .",
     "validate": "npm-run-all build eslint test",
